@@ -1,0 +1,214 @@
+body {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+}
+
+#blogTitle{
+   z-index: 1024;
+   position:fixed;
+   width: 28%;
+    background-color: black;
+}
+
+
+#blogTitle a{
+  text-decoration: none
+}
+
+#Header1_HeaderTitle{
+    color:#FFFFFF!important;
+    line-height: 50px;
+}
+
+#navigator {
+    position:fixed;
+    z-index: 1024;
+    width: 79%;
+    max-width:81%;
+    height: 70px;
+    line-height: 70px;
+    left: 22%;
+}
+
+#navList a, .blogStats span {
+    color: #FFFFFF!important;
+}
+
+.blogStats {
+    padding-right: 30px;
+}
+
+#main {
+    padding-top: 90px;
+}
+
+#navList a {
+    height: 70px;
+}
+
+.catListTitle {
+    display: block;
+    color: #ffffff !important;
+    padding: 4px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #666666;
+    border: solid #1383D5 0px;
+    background-color: black;
+}
+
+.input_my_zzk {
+    height: 26px;
+    width: 120px;
+}
+
+.btn_my_zzk {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    height: 30px !important;
+    border-radius: 2px;
+    width: 70px;
+    color: #000 !important;
+    padding: 4px;
+    text-decoration: none;
+    border: solid #D8D8D8 1px;
+}
+
+#topics .postTitle {
+    font-size: 140%;
+}
+
+#ad_t2, #under_post_news, #under_post_kb, #ad_c1, #ad_c2 {
+    display: none;
+}
+
+.sf_toc_warp {
+    position: fixed;
+    top: 90px;
+    right: 4px;
+    z-index: 9999;
+    margin-bottom: 15px;
+    text-indent: 0;
+    padding: 6px;
+    background: #FAFCFD;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px #A7A8AD;
+    line-height: 1.6;
+    width: 13%;
+    overflow-y:auto;
+    height:100%;
+}
+
+.sf_toc_warp a{
+    text-decoration: none
+}
+
+.sf_toc_warp::-webkit-scrollbar {
+    display: none;
+}
+
+.sf_toc_warp .title {
+        padding-left: 12px;
+        font-size: 16px;
+}
+
+.sf_toc_warp .toc {
+        position: relative;
+        margin-top: 12px;
+        display: block;
+ }
+
+.sf_toc_warp .toc .item {
+            display: block;
+            font-size: 12px;
+            padding-right: 12px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+}
+.sf_toc_warp .toc .item-h1 {
+            padding-left: 6px;
+            line-height: 2;
+}
+.sf_toc_warp .toc .item-h2 {
+            padding-left: 12px;
+            line-height: 1.8;
+}
+.sf_toc_warp .toc .item-h3 {
+            padding-left: 24px;
+}
+.sf_toc_warp .toc .item.current {
+            border-radius: 3px 3px 3px 3px;
+            background-color: #0681ba !important;
+            color: #fff !important;
+}
+
+.fixed-bar-warp {
+    position: fixed;
+    display: block;
+    z-index: 9999;
+    width: 40px;
+    bottom: 8px;
+    right: 10px;
+    color: #fff;
+}
+
+.fixed-bar-warp a{
+    text-decoration: none
+}
+
+.fixed-bar-warp .fixed-bar {
+        position: relative;
+        display: block;
+    }
+
+.fixed-bar-warp .fixed-bar .item {
+            display: block;
+            text-align: center;
+            cursor: pointer;
+        }
+
+.fixed-bar-warp .fixed-bar .item  i {
+                display: block;
+                height: 36px;
+                line-height: 40px;
+                font-size: 25px;
+            }
+.fixed-bar-warp .fixed-bar .item i:hover {
+                font-size: 30px;
+            }
+
+#cnblogs_post_body h1 {
+    background: #0681BA;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+    font-size: 18px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    margin: 18px 0 !important;
+    padding: 8px 0 5px 5px;
+    text-shadow: 2px 2px 3px #222222;
+}
+
+.git-link {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 0;
+    height: 149px;
+    width: 149px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    background-image: url(//images2015.cnblogs.com/blog/459873/201603/459873-20160317090540131-1089895320.png);
+}
